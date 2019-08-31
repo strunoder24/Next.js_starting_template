@@ -1,0 +1,26 @@
+{
+  "name": "next.js_trying",
+  "version": "1.0.0",
+  "description": "Here i'm trying new tool called next.js which is framework for creating isomorphic apps using react.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strunoder24/Next.js_trying.git"
+  },
+  "author": "Viktor Kondik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strunoder24/Next.js_trying/issues"
+  },
+  "homepage": "https://github.com/strunoder24/Next.js_trying#readme",
+  "dependencies": {
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
