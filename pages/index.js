@@ -3,8 +3,8 @@ import Link from 'next/link'
 // import fetch from 'isomorphic-unfetch'
 import axios from 'axios'
 
-
 import Layout from '../layouts/defaut'
+import '../styles/global_styles.sass'
 
 const Index = props => (
     <Layout>
