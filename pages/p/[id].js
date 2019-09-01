@@ -1,9 +1,8 @@
-import { useRouter } from 'next/router';
 import React from 'react'
 import axios from 'axios'
 
 import style from './scoped.module.sass'
-import Layout from '../../layouts/defaut'
+import Layout from '~/layouts/defaut'
 
 export default class extends React.Component {
     static getInitialProps = async function (context) {
