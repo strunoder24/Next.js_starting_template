@@ -20,8 +20,6 @@ export default class extends React.Component {
             <Layout>
                 <h1>{this.props.show.name}</h1>
                 <p className={'simpleStyle ' + style.boah}>{this.props.show.summary.replace(/<[/]?p>/g, '')}</p>
-                {/*<p>{this.props.show.summary}</p>*/}
-                {/*<div dangerouslySetInnerHTML={{__html: this.props.show.summary}} />*/}
                 <img src={this.props.show.image.medium}/>
             </Layout>
         )
