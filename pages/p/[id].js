@@ -15,10 +15,12 @@ export default class extends React.Component {
     };
 
     render() {
+        console.log(style);
+
         return (
             <Layout>
                 <h1>{this.props.show.name}</h1>
-                <p className={'simpleStyle ' + style.boah}>{this.props.show.summary.replace(/<[/]?p>/g, '')}</p>
+                <p className={style.boah}>{this.props.show.summary.replace(/<[/]?p>/g, '')}</p>
                 <img src={this.props.show.image.medium}/>
             </Layout>
         )

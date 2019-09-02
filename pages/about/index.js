@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Layout from '../layouts/defaut'
+import Layout from '../../layouts/defaut'
 
 export default function () {
     return (
